@@ -1,7 +1,7 @@
 from web3 import Web3
 
 # Connect to the Arbitrum Sepolia node
-w3 = Web3(Web3.HTTPProvider('YOUR_ARBITRUM_SEPOLIA_URL'))
+w3 = Web3(Web3.HTTPProvider('https://arb-sepolia.g.alchemy.com/v2/9N-_rH4Yc_byyOmG8pUCOdMGO8jE3A_M'))
 
 # Check if connected
 if not w3.isConnected():
