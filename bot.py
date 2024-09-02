@@ -4,7 +4,7 @@ from web3 import Web3
 w3 = Web3(Web3.HTTPProvider('https://arb-sepolia.g.alchemy.com/v2/9N-_rH4Yc_byyOmG8pUCOdMGO8jE3A_M'))
 
 # Check if connected
-if not w3.isConnected():
+if not w3.is_Connected():
     raise Exception("Failed to connect to the Arbitrum Sepolia node")
 
 # Set up the account
